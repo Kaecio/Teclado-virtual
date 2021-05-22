@@ -1,0 +1,23 @@
+{
+  "name": "teclado-virtual",
+  "version": "1.0.0",
+  "description": "teclado virtual",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaecio/Teclado-virtual.git"
+  },
+  "keywords": [
+    "teclado",
+    "virtual"
+  ],
+  "author": "Fanderson Kaécio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaecio/Teclado-virtual/issues"
+  },
+  "homepage": "https://github.com/Kaecio/Teclado-virtual#readme"
+}
