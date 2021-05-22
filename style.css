@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #555;
+}
+
+.teclado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_teclado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 2000px;
+  background-color: rgb(44, 44, 44);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+[caixa] {
+  width: 400px;
+  height: 320px;
+  border: 4px solid rgb(10, 10, 10);
+  margin-bottom: 50px;
+  background-color: rgba(71, 71, 71, 0.425);
+}
+
+.caixa_esq {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 75px;
+  border-bottom-right-radius: 15px;
+}
+
+.caixa1_btns_esq {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+}
+
+[btn] {
+  width: 40px;
+  height: 35px;
+  background-color: rgb(34, 34, 34);
+  border: 4px solid #000;
+  border-radius: 4px;
+}
+.caixa2_btns_esq {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+}
+
+.caixa_dos_botoes1 {
+  margin-left: 15px;
+}
+.btns-caixa1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 200px;
+  height: 60px;
+  margin-left: 5px;
+  /*border: 2px solid rgb(43, 151, 33);*/
+}
+
+.btns-caixa1_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 5px;
+}
+
+.btns-caixa2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  width: 60%;
+  /*border: 2px solid rgb(43, 151, 33);*/
+}
+.botoes_esq2 {
+}
+
+.circles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle_power {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.circle_esq1 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(68, 68, 68);
+  border: 4px solid #000;
+}
+
+.circle_esq1:active {
+  background-color: rgb(43, 43, 43);
+  border: 5px solid rgb(20, 20, 20);
+}
+
+.circle_esq2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgb(131, 120, 120);
+  border: 6px solid #000;
+}
+
+.caixa_direit {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 75px;
+}
+
+[btn_painel] {
+  width: 350px;
+  height: 250px;
+  margin-bottom: 50px;
+}
+
+.painel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 250px;
+  border: 4px solid rgb(0, 0, 0);
+  background-color: rgb(15, 15, 15);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 80px;
+}
+
+.logo_teclado {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4rem;
+  height: 40px;
+  width: 140px;
+  background-color: rgb(80, 80, 80);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.painel_digital {
+  height: 80px;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.teclado_teclas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teste {
+  position: absolute;
+  background-color: rgb(44, 44, 44);
+  height: 320px;
+  width: 2000px;
+  z-index: -10000;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.branca {
+  background-color: #fff;
+  width: 50px;
+  height: 300px;
+  border: 1px solid rgb(37, 37, 37);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0px 2px rgb(20, 20, 20);
+}
+
+.oitava {
+  position: relative;
+  display: flex;
+}
+
+.preta {
+  position: absolute;
+  width: 30px;
+  height: 160px;
+  background-color: #000;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+[cs2],
+[cs3],
+[cs4],
+[cs5],
+[cs6] {
+  left: 35px;
+}
+
+[ds2],
+[ds3],
+[ds4],
+[ds5],
+[ds6] {
+  left: 85px;
+}
+
+[fs2],
+[fs3],
+[fs4],
+[fs5],
+[fs6] {
+  left: 185px;
+}
+
+[gs2],
+[gs3],
+[gs4],
+[gs5],
+[gs6] {
+  left: 235px;
+}
+
+[as2],
+[as3],
+[as4],
+[as5],
+[as6] {
+  left: 285px;
+}
+
+.selecionada_branca {
+  background-color: rgba(196, 196, 196, 0.918);
+}
+
+.selecionada_preta {
+  background-color: rgb(48, 48, 48);
+}
